@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        forceCrashButton.setOnClickListener { throw RuntimeException("forced by Egis") }
+
         Picasso.get().load(fireBaseIcon).into(imageView)
 
         printFirebaseToken()

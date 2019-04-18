@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirebaseDemo</string>
+    <string name="force_a_crash">Force a crash</string>
 </resources>
